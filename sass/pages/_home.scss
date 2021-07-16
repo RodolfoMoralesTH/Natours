@@ -4,3 +4,16 @@
     //95vh - 75vh
     margin-top: -20vh;
 }
+
+.section-features{
+    
+    padding: 20rem 0;
+    background-image: linear-gradient(to right bottom,rgba($color-primary-light, 0.800), rgba($color-primary, 0.800)), url('../img/nat-4.jpg');
+    background-size: cover;
+    margin-top:-10rem;
+    transform: skewY(-7deg);
+    //direct child selector
+    & > * {
+        transform: skewY(7deg);
+    }
+}
