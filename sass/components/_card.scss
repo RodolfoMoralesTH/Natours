@@ -17,7 +17,7 @@
         left: 0;
         width:100%;
         backface-visibility: hidden;
-        border-radius: 3px;
+        border-radius: $radius-corners;
         box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
 
         &--front{
@@ -50,8 +50,8 @@
         background-size: cover;
         height:23rem;
         background-blend-mode: screen;
-        border-top-left-radius: 3px;
-        border-top-right-radius: 3px;
+        border-top-left-radius: $radius-corners;
+        border-top-right-radius: $radius-corners;
         //so it works in all browsers
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         clip-path: polygon(0 0, 100% 0 , 100% 80%, 0 100% );

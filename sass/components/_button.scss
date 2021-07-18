@@ -11,7 +11,7 @@
     font-size: $default-font-size;
 }
 &:hover{
-    transform: translateY(-3px);
+    transform: translateY(-$radius-corners);
     box-shadow: 0 1rem 2rem rgba($color-black,.2);
     &::after{
         transform:scaleX(1.4) scaleY(1.6);
