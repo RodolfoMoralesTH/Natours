@@ -12,6 +12,9 @@
         //text-align works because image is inline block
         text-align: center;
         margin-bottom: 8rem;
+        @include respond(tab-port){
+         margin-bottom: 6rem;
+      }
      }
      &__logo{
         width: 15rem;
